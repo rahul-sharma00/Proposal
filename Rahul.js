@@ -8,5 +8,6 @@ btn1.addEventListener('mouseover',()=>{
 
 function fun(){
     document.getElementById("gif").src="gif2.gif";
+    btn1.disabled='true';
 }
 
